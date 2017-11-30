@@ -1,0 +1,48 @@
+html, body {
+ margin: 1em;
+ padding: 1em;
+ }
+body {
+ background-color: #d7edf1; 
+ font-family: Verdana, sans-serif; 
+ font-size: 100%;
+ }
+h1 {
+ font-size: 200%; 
+ color: #70898e; 
+ text-align: center;
+ }
+p,ul,li,td {
+ color: black;
+ text-align: center;
+ }
+div {
+ width: 70%;
+ padding: 1em;
+ margin: auto;
+ text-align: center;
+ background-color: white;
+}
+a:link {
+ color: green;
+ text-decoration: underline;
+ }
+a:visited {
+ color: gray;
+ }
+a:hover {
+ color: red;
+ text-decoration: none;
+}
+a:active, a:focus {
+ color: red;
+}.loginButton{
+ margin: auto;
+ background-color: #70898e;
+ border: none;
+ color: white;
+ padding: 10%;
+ text-align: center;
+ display: inline-block;
+ font-size: 500%;
+}
